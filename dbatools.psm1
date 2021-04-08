@@ -723,6 +723,13 @@ $script:xplat = @(
     'Move-DbaRegServerGroup',
     'Remove-DbaRegServer',
     'Remove-DbaRegServerGroup',
+    'New-DbaCustomError',
+    'Remove-DbaCustomError',
+    'Get-DbaDbSequence',
+    'New-DbaDbSequence',
+    'Remove-DbaDbSequence',
+    'Select-DbaDbSequenceNextValue',
+    'Set-DbaDbSequence',
     # Config system
     'Get-DbatoolsConfig',
     'Get-DbatoolsConfigValue',
@@ -780,7 +787,9 @@ $script:xplat = @(
     'Remove-DbaAgentOperator',
     'Remove-DbaDbTableData',
     'Get-DbaDbSchema',
-    'New-DbaDbSchema'
+    'New-DbaDbSchema',
+    'Set-DbaDbSchema',
+    'Remove-DbaDbSchema'
 )
 
 $script:noncoresmo = @(
